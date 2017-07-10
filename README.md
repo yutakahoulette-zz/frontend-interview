@@ -1,22 +1,17 @@
-Easy:
-1. :heavy_check_mark: isPrime
-2. :heavy_check_mark: factorial
-3. :heavy_check_mark: fib
-4. isSorted
-5. filter
-6. reduce
-7. reverse
-8. indexOf
-9. isPalindrome
-10. missing - Takes an unsorted array of unique numbers (ie. no repeats) from 1 through some number n, and returns the missing number in the sequence (there are either no missing numbers, or exactly one missing number). Can you do it in O(N) time? Hint: There’s a clever formula you can use.
-11. isBalanced - Takes a string and returns true or false indicating whether its curly braces are balanced. 
+# Common frontend JS interview questions 
 
-Intermediate:
-1. fib2 - Like the fib function you implemented above, able to handle numbers up to 50 (hint: look up memoization).
-2. isBalanced2 - Like the isBalanced function you implemented above, but supports 3 types of braces: curly {}, square [], and round (). A string with interleaving braces should return false.
-3. uniq - Takes an array of numbers, and returns the unique numbers. Can you do it in O(N) time?
-4. intersection - Find the intersection of two arrays. Can you do it in O(M+N) time (where M and N are the lengths of the two arrays)?
-5. sort - Implement the sort function to sort an array of numbers in O(N×log(N)) time.
-6. includes - Return true or false indicating whether the given number appears in the given sorted array. Can you do it in O(log(N)) time?
-7. assignDeep - Like Object.assign, but merges objects deeply.
+From [performancejs.com](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)).
+
+### Easy:
+1. :heavy_check_mark: `isPrime` - Returns true or false, indicating whether the given number is prime.
+2. :heavy_check_mark: `factorial` - Returns a number that is the factorial of the given number.
+3. :heavy_check_mark: `fib` - Returns the nth Fibonacci number. 
+4. `isSorted` - Returns true or false, indicating whether the given array of numbers is sorted. 
+5. `filter` - Implement the filter function.
+6. `reduce` - Implement the reduce function.
+7. `reverse` - Reverses the given string (yes, using the built in reverse function is cheating).
+8. `indexOf` - Implement the indexOf function for arrays.
+9. `isPalindrome` - Return true or false indicating whether the given string is a plaindrone (case and space insensitive).
+10. `missing` - Takes an unsorted array of unique numbers (ie. no repeats) from 1 through some number n, and returns the missing number in the sequence (there are either no missing numbers, or exactly one missing number). Can you do it in O(N) time? Hint: There’s a clever formula you can use.
+11. `isBalanced` - Takes a string and returns true or false indicating whether its curly braces are balanced.
 
