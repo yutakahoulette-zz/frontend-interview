@@ -1,7 +1,7 @@
 Easy:
-1. :check: isPrime
-2. :check: factorial
-3. :check: fib
+1. :heavy_check_mark: isPrime
+2. :heavy_check_mark: factorial
+3. :heavy_check_mark: fib
 4. isSorted
 5. filter
 6. reduce
