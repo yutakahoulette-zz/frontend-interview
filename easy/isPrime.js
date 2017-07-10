@@ -11,7 +11,7 @@ function isPrime(num) {
   return isPrime 
 }
 
-test('prime', function(t)  {
+test('isPrime', function(t)  {
   t.false(isPrime(0))
   t.false(isPrime(1))
   t.true(isPrime(2))
