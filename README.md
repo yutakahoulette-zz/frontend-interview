@@ -7,7 +7,7 @@ From [performancejs.com](https://performancejs.com/post/hde6d32/The-Best-Fronten
 2. :heavy_check_mark: `factorial` - Returns a number that is the factorial of the given number.
 3. :heavy_check_mark: `fib` - Returns the nth Fibonacci number. 
 4. :heavy_check_mark: `isSorted` - Returns true or false, indicating whether the given array of numbers is sorted. 
-5. `filter` - Implement the filter function.
+5. :heavy_check_mark: `filter` - Implement the filter function.
 6. `reduce` - Implement the reduce function.
 7. `reverse` - Reverses the given string (yes, using the built in reverse function is cheating).
 8. `indexOf` - Implement the indexOf function for arrays.
