@@ -1,7 +1,7 @@
 Easy:
-1. XX isPrime
-2. factorial
-3. fib
+1. :check: isPrime
+2. :check: factorial
+3. :check: fib
 4. isSorted
 5. filter
 6. reduce
