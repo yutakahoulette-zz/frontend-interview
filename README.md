@@ -12,6 +12,6 @@ From [performancejs.com](https://performancejs.com/post/hde6d32/The-Best-Fronten
 7. :heavy_check_mark: `reverse` - Reverses the given string (yes, using the built in reverse function is cheating).
 8. :heavy_check_mark: `indexOf` - Implement the indexOf function for arrays.
 9. `isPalindrome` - Return true or false indicating whether the given string is a plaindrone (case and space insensitive).
-10. `missing` - Takes an unsorted array of unique numbers (ie. no repeats) from 1 through some number n, and returns the missing number in the sequence (there are either no missing numbers, or exactly one missing number). Can you do it in O(N) time? Hint: There’s a clever formula you can use.
+10. :heavy_check_mark: `missing` - Takes an unsorted array of unique numbers (ie. no repeats) from 1 through some number n, and returns the missing number in the sequence (there are either no missing numbers, or exactly one missing number). Can you do it in O(N) time? Hint: There’s a clever formula you can use.
 11. `isBalanced` - Takes a string and returns true or false indicating whether its curly braces are balanced.
 

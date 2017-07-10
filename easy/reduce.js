@@ -11,7 +11,7 @@ function reduce(arr, fn, acc) {
 const add = (a, b) => a + b
 
 test('reduce', function(t)  {
-  t.same(reduce([1,2,3,4], add, 0), 10)
+  t.equal(reduce([1,2,3,4], add, 0), 10)
   t.end()
 })
 

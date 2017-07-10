@@ -13,8 +13,8 @@ function indexOf(arr, match) {
 }
 
 test('indexOf', function(t)  {
-  t.same(indexOf([1,2,3], 1), 0)
-  t.same(indexOf([1,2,3], 4), -1)
-  t.same(indexOf(['apple','banana','cherry'], 'cherry'), 2)
+  t.equal(indexOf([1,2,3], 1), 0)
+  t.equal(indexOf([1,2,3], 4), -1)
+  t.equal(indexOf(['apple','banana','cherry'], 'cherry'), 2)
   t.end()
 })

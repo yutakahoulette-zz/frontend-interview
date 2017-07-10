@@ -9,8 +9,8 @@ function reverse(st) {
 }
 
 test('reverse', function(t)  {
-  t.same(reverse(''), '')
-  t.same(reverse('abcdefg'), 'gfedcba')
+  t.equal(reverse(''), '')
+  t.equal(reverse('abcdefg'), 'gfedcba')
   t.end()
 })
 

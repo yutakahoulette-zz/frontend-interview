@@ -6,4 +6,5 @@ require('./easy/filter')
 require('./easy/reduce')
 require('./easy/reverse')
 require('./easy/indexOf')
+require('./easy/missing')
 
