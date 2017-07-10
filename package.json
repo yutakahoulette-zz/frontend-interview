@@ -1,0 +1,16 @@
+{
+  "name": "frontend-interview",
+  "version": "1.0.0",
+  "description": "practicing common frontend interview questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "(node tests.js | tap-spec) || true"
+  },
+  "author": "Yutaka Houlette",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "4.1.1",
+    "tape": "4.7.0"
+  },
+  "false": {}
+}
