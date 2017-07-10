@@ -1,8 +1,8 @@
-var test = require("tape")
+const test = require("tape")
 
 function filter(arr, fn) {
   let acc = []
-  for(var i = 0; i <= arr.length; i++) {
+  for(let i = 0; i <= arr.length; i++) {
     const el = arr[i]
     if(fn(el)) { acc.push(el) }
   }

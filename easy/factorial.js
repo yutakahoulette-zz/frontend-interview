@@ -1,8 +1,8 @@
-var test = require("tape")
+const test = require("tape")
 
 function factorial(num) {
   let x = num || 1
-  for(var i = 1; i < num; i++) { x *= i }
+  for(let i = 1; i < num; i++) { x *= i }
   return x
 }
 

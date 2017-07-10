@@ -1,7 +1,7 @@
-var test = require("tape")
+const test = require("tape")
 
 function reduce(arr, fn, acc) {
-  for(var i = 0; i < arr.length; i++) {
+  for(let i = 0; i < arr.length; i++) {
     const el = arr[i]
     acc = fn(acc, el)
   }

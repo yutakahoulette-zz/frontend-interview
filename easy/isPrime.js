@@ -1,10 +1,10 @@
-var test = require("tape")
+const test = require("tape")
 
 function isPrime(num) {
   if (num <= 1 ) return false
   let i = 2
   let isPrime = true
-  while(isPrime && i <= Math.round(num / 2)) {
+  while(isPrime && i <= Math.ceil(num / 2)) {
     if(num % i === 0) { isPrime = false } 
     i++
   }

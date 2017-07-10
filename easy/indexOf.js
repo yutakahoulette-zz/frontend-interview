@@ -1,4 +1,4 @@
-var test = require("tape")
+const test = require("tape")
 
 function indexOf(arr, match) {
   let i = 0 

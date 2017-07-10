@@ -1,9 +1,8 @@
-var test = require("tape")
+const test = require("tape")
 
-// returns the Nth fibonacci number
 function fib(n) {
   let x = 0, y = 1
-  for(var i = 0; i <= n; i++) { 
+  for(let i = 0; i <= n; i++) { 
     x = x + y
     y = x - y
   }
