@@ -8,4 +8,5 @@ require('./easy/reverse')
 require('./easy/indexOf')
 require('./easy/missing')
 require('./easy/isPalindrome')
+require('./easy/isBalanced')
 
